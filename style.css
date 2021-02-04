@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    outline none;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
